@@ -5,11 +5,11 @@ body {
     display: flex;
     flex-direction: column;
     align-items: center;
-    padding-top: 50px;
+    padding: 50px 0px;
 }
 
 .canvas {
-    width: 500px;
+    width: 900px;
     height: 500px;
     background-color: white;
     border-radius: 15px;
@@ -37,11 +37,14 @@ body {
     border-radius: 10px;
     box-shadow: 0 4px 6px rgba(50, 50, 93, 0.11), 0 1px 3px rgba(0, 0, 0, 0);
     border: 2px solid rgba(0, 0, 0, 0.2);
-    color: rgba(0, 0, 0, 0.8)
+    color: rgba(0, 0, 0, 0.8);
+    text-transform: uppercase;
+    font-weight: 800;
+    font-size: 12px;
 }
 
 .controls_btns button:active {
-    transform: scale(0.8)
+    transform: scale(0.9)
 }
 
 .controls .controls_colors {
@@ -54,4 +57,8 @@ body {
     border-radius: 25px;
     cursor: pointer;
     box-shadow: 0 4px 6px rgba(50, 50, 93, 0.11), 0 1px 3px rgba(0, 0, 0, 0);
+}
+
+.controls .controls_range {
+    margin-bottom: 30px;
 }
